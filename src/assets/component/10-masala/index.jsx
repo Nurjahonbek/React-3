@@ -11,7 +11,7 @@ function toggle() {
     <div>
         <h2>10-masala</h2>
         <div>
-        {On ? <img style={{width: '100px', height: '100px'}} src='/src/assets/onn.png' /> : <img style={{width: '100px', height: '100px'}} src='/src/assets/off.png' />}
+        {On ? <img style={{width: '100px', height: '100px'}} src='/onn.png' /> : <img style={{width: '100px', height: '100px'}} src='/off.png' />}
         </div>
         <p>{On ? `lampochka: yoqilgan`  : 'lampochka: ochirilgan'}</p>
         <button onClick={toggle}>{On ? 'ochirish' : 'yoqish'}</button>
