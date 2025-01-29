@@ -12,6 +12,7 @@ function Masala2() {
     }
     return (
     <div>
+        <h2>2-Masala</h2>
         <div style={{backgroundColor: currentcolor, width: 80, height: 80}}></div>
         <button onClick={hand}>change</button>
 
