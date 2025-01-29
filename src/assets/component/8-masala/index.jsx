@@ -14,6 +14,7 @@ function deleteTask(index) {
 }
     return (
     <div>
+        <h2>8-Masala</h2>
         <input type="text" value={newTask}
         onChange={(e) => setTask(e.target.value)} placeholder="todo"/>
         <button onClick={addTask}>qoshish</button>
